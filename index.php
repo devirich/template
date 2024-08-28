@@ -10,6 +10,6 @@ require 'app/Http/Middleware/HomeControllers.class.php';
 $path = "/template";
 $router = new Routing($path);
 include('routes/web.php');
-include('routes/webController.php');
+include('routes/console.php');
 include('routes/api.php');
 $router->run();
